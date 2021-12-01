@@ -1,0 +1,26 @@
+# Site settings
+title: YOUR NAME?
+email: me@velitasali.com
+url: https://indiebands.velitasali.com
+description: "Are you on the verge of forming a new band and looking for a contemporary name? Well, look no more because we'll find you one for FREE!"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Veli Tasalı
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: My Website
+    icon: link
+    url: https://velitasali.com
+  - title: My Projects
+    icon: gamepad
+    url: https://velitasali.com/projects
+
+# Build settings
+markdown: kramdown
+permalink: pretty
