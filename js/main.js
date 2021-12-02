@@ -36,21 +36,24 @@ $("a").mouseup(function () {
 })
 
 let modeData = [
-    ["we are"],
-    "ex two twin electric tame".split(" "),
-    "shoes doors cars bells hands pilots man boys girls grammar mother wizard sound twins twin ring dance animals foxes day cops jacket mouse mice monsters".split(" "),
-    "club park motel kingdom country road castle castles".split(" "),
-    ["of men", "& sons", "of foresty"],
+    ["the", "we are the"],
+    "biggest happiest narrowest shallowest smallest".split(" "),
+    "alaskan arap celestial dead electric ex fighting glass greek japanese london tame".split(" "),
+    "death them twin two us".split(" "),
+    "animals bells boys cars castles cops doors dreams foxes girls hands mice monsters pilots shoes sounds twins".split(" "),
+    ["& sons", "for cutie", "of dead", "of foresty", "of men", "of rhythm", "of sound", "of tomorrow"],
+    "castle cinema club country day grammar jacket kingdom man motel mother mouse park play ring road strap taxi tragedy twin wizard".split(" "),
+    "alive known".split(" "),
 ]
 
 let modes = [
-    [1, 0, 1, 0, 0], // we are shoes
-    [1, 1, 1, 0, 0], // we are ex shoes
-    [1, 0, 1, 1, 0], // we are shoes club
-    [0, 1, 1, 0, 0], // ex shoes
-    [0, 1, 1, 1, 0], // ex shoes club
-    [0, 1, 1, 0, 1], // ex shoes of men
-    [0, 1, 0, 1, 1], // ex club of men
+    [1, 0, 1, 0, 1, 0, 0, 0],
+    [0, 0, 0, 1, 1, 0, 0, 0],
+    [0, 0, 0, 1, 1, 1, 0, 0],
+    [0, 0, 1, 0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 1, 1, 0, 0],
+    [1, 0, 1, 0, 0, 0, 1, 0],
+    [0, 1, 0, 0, 0, 0, 1, 1],
 ]
 
 function assignIndex(index, length) {
