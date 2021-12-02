@@ -1,16 +1,14 @@
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <section id="contact" class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-8 offset-lg-2 text-center content-section">
                 <h2>Contact</h2>
                 <p>Looking for more dumb shit?</p>
-                <ul class="list-inline banner-social-buttons">
+                <p class="banner-social-buttons">
                     {% for network in site.social %}
-                    <li>
-                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.icon }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
-                    </li>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg m-2"><i class="fa fa-{{ network.icon }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
                     {% endfor %}
-                </ul>
+                </p>
             </div>
         </div>
     </section>

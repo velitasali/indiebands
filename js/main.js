@@ -7,9 +7,9 @@
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function () {
     if ($(".navbar").offset().top > 50) {
-        $(".navbar-fixed-top").addClass("top-nav-collapse");
+        $(".navbar-custom").addClass("top-nav-collapse");
     } else {
-        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+        $(".navbar-custom").removeClass("top-nav-collapse");
     }
 });
 
@@ -98,7 +98,9 @@ function showFor(modeRequested = null, indexes = null) {
     copySharingLink.attr("href", url)
     copySharingLink.show()
 
-    $("#letsStartTitle").html("Your Band's Name Is")
+    let startTitle = $("#letsStartTitle")
+    startTitle.html("Your Band's Name Is")
+    startTitle.addClass("font-weight-light")
     $("#letsStartHelp").hide()
 
     let generateNameButton = $("#generateName")
